@@ -1,0 +1,135 @@
+body, html {
+	height: 100%;
+	background-repeat: no-repeat;    /*background-image: linear-gradient(rgb(12, 97, 33),rgb(104, 145, 162));*/
+	background:black;
+	position: relative;
+}
+#login-box {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	min-width: 350px;
+	margin: 0 auto;
+	border: 5px solid #3d5fcf;
+	background: transparent;
+	min-height: 250px;
+	padding: 20px;
+	z-index: 9999;
+}
+#login-box1 {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	min-width: 350px;
+	margin: 0 auto;
+	border: 5px solid #3d5fcf;
+	background: transparent;
+	min-height: 250px;
+	padding: 20px;
+	z-index: 9999;
+}
+#login-box .logo .logo-caption {
+	font-family: 'Poiret One', cursive;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+}
+#login-box1 .logo .logo-caption {
+	font-family: 'Poiret One', cursive;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+}
+#login-box .logo .tweak {
+	color: #3d5fcf;
+}
+#login-box1 .logo .tweak {
+	color: #3d5fcf;
+}
+#login-box .controls {
+	padding-top: 50px;
+}
+#login-box1 .controls {
+	padding-top: 50px;
+}
+#login-box .controls input {
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background: transparent;
+	border: 0px;
+	color: white;
+}
+#login-box1 .controls input {
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background: transparent;
+	border: 0px;
+	color: white;
+}
+#login-box .controls input:focus {
+	box-shadow: #369cd7;
+}
+#login-box1 .controls input:focus {
+	box-shadow: #369cd7;
+}
+#login-box .controls input{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    margin-bottom: 20px;
+}
+#login-box .controls input{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    margin-bottom: 0px;
+	margin-top: 20px;
+    
+}
+#login-box button.btn-custom {
+	border-radius: 50px;
+	margin-top: 40px;
+	background:#369cd7;
+	border-color: rgba(48, 46, 45, 1);
+	color: white;
+}
+#login-box1 button.btn-custom {
+	border-radius: 50px;
+	margin-top: 40px;
+	background:#369cd7;
+	border-color: rgba(48, 46, 45, 1);
+	color: white;
+}
+#login-box button.btn-custom:hover{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	background: rgba(48, 46, 45, 1);
+	border-color: #369cd7;
+}
+#login-box1 button.btn-custom:hover{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	background: rgba(48, 46, 45, 1);
+	border-color: #369cd7;
+}
+#particles-js{
+  	width: 100%;
+  	height: 100%;
+  	background-size: cover;
+  	background-position: 50% 50%;
+  	position: fixed;
+  	top: 0px;
+  	z-index:1;
+}
+::placeholder{
+
+	color: #369cd7;
+}

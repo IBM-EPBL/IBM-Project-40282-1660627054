@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+body {
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.WPFYU-l-9sXYdJhpaY07FwHaE9&pid=Api&P=0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+</head>
+
+<body background="{{ url_for('static', filename='back.jpg') }}">
+    <div class="login" align="center">
+<b><font style="color:white" "font-family:verdana" size="5"><h1>LOGIN</h1></font></b><br><br>
+
+    <form action="{{ url_for('logedin')}}"method="post">
+        <input type="text" name="user_name" placeholder="user_name" required="required" /><br><br>
+        <input type="password" value="FakePSW" id="myInput" name="password" placeholder="password" required="required" /><br><br><br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">login</button>
+
+        </form>
+            <br>
+            <br>
+            <br>
+            <b><font style="color:white" "font-family:verdana" size="5">{{text}}</font></b><br><br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        
+        <br>
+        <br>
+
+
+</div>
+</body>
+
+</html>
